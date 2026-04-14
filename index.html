@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" type="image/png" href="LOGO.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/site.css">
+    <script src="JS/site.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Home | Event | ICCT | Support -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="about.html">ICCT</a></li>
+                <li><a href="https://intertribaltexas.org/donate-to-icct/" target="_blank" rel="noopener noreferrer">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <!-- event name, host, date, CTA -->
+            <h1>Honor Our Elders</h1>
+            <h2>Intertribal Community Council of Texas</h2>
+            <p>November 21, 2026: Location Coming Soon</p>
+            <p>Celebrating and supporting American Indian elders across the Dallas–Fort Worth community.</p>
+            <div class="hero-ctas">
+                <a href="event.html">Learn About the Event</a>
+                <a href="https://intertribaltexas.org/donate-to-icct/" target="_blank" rel="noopener noreferrer">Support the Event</a>
+            </div>
+            <div class="share-story">
+                <button type="button" id="share-story-button">Share This Story</button>
+                <p id="share-story-status" class="share-status" aria-live="polite"></p>
+            </div>
+            <!-- Optional hero image -->
+            <img class="hero-logo" src="LOGO.png" alt="Intertribal Community Council of Texas logo.">
+        </section>
+
+        <section id="event-overview">
+            <!-- short paragraph about the event -->
+            <h2>About the Gathering</h2>
+            <p>Honor Our Elders is an annual community event hosted by the Intertribal Community Council of Texas (ICCT). 
+                This gathering recognizes the wisdom, leadership, and lived experiences of Native American elders who have 
+                carried our stories, traditions, and strength across generations. The event includes a shared meal, gifts, 
+                cultural activities, and time for connection. 
+            </p>
+
+            <!-- Optional supporting image -->
+            <img src="Photos/ICCT banner.jpeg" alt="ICCT members holding the Intertribal Community Council of Texas banner at a community event.">
+                </section>
+        <section id="fundraising-highlight">
+            <!-- donation CTA Block -->
+            <h2>Support Our Elders</h2>
+            <p>ICCT aims to support 100 Native American elders this year through meals, gifts, and community recognition. 
+                 Your contribution directly funds the food baskets, gift cards, and support items provided to each elder. 
+                 Every donation helps us honor those who have carried our traditions forward.</p>
+
+            <!-- Image placeholder -->
+            <img src="Photos/Elder gifts.jpg" alt="Presenting gifts to an American Indian elder.">
+            <a id="support" href="https://intertribaltexas.org/donate-to-icct/" target="_blank" rel="noopener noreferrer">Donate Today</a>
+            <!-- modal placeholder -->
+            <div id="donation-modal" class="modal" hidden>
+                <div class="modal-content">
+                    <h3>Where Your Donation Goes</h3>
+                    <p>Your contribution directly supports American Indian elders in the Dallas–Fort Worth community. 
+                        Donations help provide shared meals, gift cards, food baskets, and essential items that are distributed 
+                        during the Honor Our Elders gathering. Each gift ensures that elders feel valued, supported, and honored 
+                        for the wisdom and leadership they have shared across generations.
+                    </p>
+                    <p>ICCT is a 501(c)(3) nonprofit organization, and every tax-deductible donation goes toward community programming, 
+                        cultural events, and elder support services. Thank you for helping us uplift and care for the elders 
+                        who continue to guide our community.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="event-highlights">
+            <!-- 3-4 cards. -->
+            <h2>Event Highlights</h2>
+
+            <div class="card-container">
+                <article class="card">
+                    <h3>Elder Recognition</h3>
+                    <img src="Photos/elder.jpg" alt="American Indian elder wrapped in a blanket during an ICCT community event.">
+                    <p>Honoring the wisdom and leadership of our elders through gifts, ceremony, and community support.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Cultural Activities</h3>
+                    <img src="Photos/regalia.jpg" alt="ICCT community members wearing traditional regalia during a cultural celebration.">
+                    <p>Celebrating identity and tradition through storytelling, cultural sharing, and community connection.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Community Gathering</h3>
+                    <img src="Photos/seniors.jpg" alt="American Indian elders gathered beneath a sign labeled ‘Seniors’ at an ICCT event.">
+                    <p>Bringing families together to share a meal, reconnect, and strengthen intertribal relationships.</p>
+                </article>
+
+            </div>
+        </section>
+        <section id="quick-links">
+            <!-- internal links -->
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="event.html">About the Event</a></li>
+                <li><a href="about.html">About ICCT</a></li>
+                <li><a href="https://intertribaltexas.org/donate-to-icct/" target="_blank" rel="noopener noreferrer">Support the Event</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>This site is for a semester project in IMED 1341, by Azsure Dorton (Blackfeet), created April 2026.</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+        <p>This site is for educational purposes only.</p>
+    </footer>
+</body>
+</html>

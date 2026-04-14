@@ -1,0 +1,150 @@
+
+
+/* ---------- CSS Reset (Modern + Minimal) ---------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-neutral-900);
+  background-color: var(--color-neutral-100);
+  line-height: 1.6;
+}
+
+/* ---------- Design Tokens ---------- */
+:root {
+  /* Colors */
+  --color-primary: #8B3A3A;
+  --color-secondary: #C57F4F;
+  --color-neutral-900: #1A1A1A;
+  --color-neutral-100: #F7F5F2;
+  --color-accent: #4A6FA5;
+  --color-success: #3C7A4C;
+
+  /* Typography Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+
+  /* Fonts */
+  --font-heading: "Merriweather", serif;
+  --font-body: "Inter", sans-serif;
+   /* --font-heading: "Lora", serif;
+  --font-body: "Source Sans 3", sans-serif; */
+   /* --font-heading: "Alegreya", serif;
+  --font-body: "Montserrat", sans-serif; */
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+/* ---------- Typography Defaults ---------- */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  line-height: 1.2;
+  margin-bottom: var(--space-3);
+}
+
+h1 {
+  font-size: var(--text-3xl);
+}
+
+h2 {
+  font-size: var(--text-2xl);
+}
+
+h3 {
+  font-size: var(--text-xl);
+}
+
+p {
+  margin-bottom: var(--space-3);
+  max-width: 70ch;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* ---------- Images ---------- */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-md);
+}
+
+/* ---------- Buttons (Base Style) ---------- */
+button,
+a.button {
+  display: inline-block;
+  padding: var(--space-2) var(--space-3);
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: var(--text-base);
+  font-weight: 600;
+  text-align: center;
+}
+
+button:hover,
+a.button:hover {
+  background-color: var(--color-secondary);
+}
+
+/* ---------- Utility Classes ---------- */
+.container {
+  width: min(90%, 1200px);
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-4 {
+  margin-top: var(--space-4);
+}
+
+.mb-4 {
+  margin-bottom: var(--space-4);
+}

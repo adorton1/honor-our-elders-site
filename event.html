@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page | The Heart of the Gathering</title>
+    <link rel="icon" type="image/png" href="LOGO.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/site.css">
+    <script src="JS/site.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Home | Event | ICCT | Support -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="about.html">ICCT</a></li>
+                <li><a href="https://intertribaltexas.org/donate-to-icct/" target="_blank" rel="noopener noreferrer">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="event-story" class="fade-in">
+            <!-- cultural significance of the event -->
+            <h1>The Heart of the Gathering</h1>
+            <p>Honor Our Elders is an annual community gathering hosted by the Intertribal Community Council of Texas (ICCT). 
+                 This event centers on gratitude, respect, and cultural continuity. It recognizes the wisdom, leadership, and lived experiences of American Indian elders who have carried our stories, traditions, and strength across generations. The gathering provides a shared meal, gifts, cultural activities, and time for connection.</p>
+            <p> Elders hold a central place in many Native American communities. They are teachers, storytellers, knowledge keepers, and leaders. Honoring them is not just tradition: It is responsibility, reciprocity, and love. This event creates space for cultural connection, community healing, and intergenerational learning.</p>
+
+            <img src="Photos/blankers.jpg" alt="American Indian elders wrapped in blankets during an ICCT community event.">
+            
+        </section>
+
+        <section id="elder-spotlight" class="fade-in">
+            <!-- 2-4 cards -->
+            <h2>Elder Spotlights</h2>
+
+            <div class="card-container">
+
+                <article class="card">
+                    <img src="Photos/elder.jpg" alt="American Indian elder wrapped in blanket during ICCT community event.">
+                    <h3>Elder Rose Burns</h3>
+                    <p>A moment of connection between generations, reflecting the heart of why this event matters: Honoring those who guide us, nurturing those who will carry our traditions forward. </p>
+                    <!-- Optional modal trigger -->
+                    <button type="button" data-modal-target="elder-modal-rose">Read More</button>
+                </article>
+                <!-- Modal Placeholder -->
+           
+
+                <article class="card">
+                    <img src="Photos/seniors.jpg" alt="American Indian elders gathered beneath a sign labeled ‘Seniors’ at an ICCT event.">
+                    <h3>Honored Elders</h3>
+                    <p>Elders from across the DFW community gather to share stories, receive gifts, and enjoy a meal in their honor.</p>
+                    <button type="button" data-modal-target="elder-modal-honored">Read More</button>
+                </article>
+
+            </div>
+            <div id="elder-modal-rose" class="modal" hidden>
+                <div class="modal-content">
+                    <button type="button" class="modal-close" data-modal-close aria-label="Close modal">&times;</button>
+                    <h3>Elder Rose Burns</h3>
+                    <p>A grandmother shares guidance and stories with her grandchild. Elders remind us where we came from, and children remind us where we are going. Many Native American traditions teach us to honor seven generations before us and consider the impact of our actions on the seven generations yet to come. This is a simple way to connect to those traditions.</p>
+                </div>
+            </div>
+            <!-- Modal Placeholder -->
+            <div id="elder-modal-honored" class="modal" hidden>
+                <div class="modal-content">
+                    <button type="button" class="modal-close" data-modal-close aria-label="Close modal">&times;</button>
+                    <h3>Honored Elders</h3>
+                    <p>These elders represent the strength and resilience of the Native American community in the DFW area. Many have preserved culture, support families, and uplift those around them. Honoring them through gifts, meals, and community recognition is a way of expressing gratitude for their leadership and paths they have paved for future generations.</p>
+                </div>    
+            </div>
+             
+        </section>
+
+        <section id="event-details" class="fade-in">
+            <h2>Event Details</h2>
+
+            <article>
+                <h3>Opening Prayer & Welcome</h3>
+                <p>A community gathering to open the event by host Nina Taylor, featuring a traditional prayer and welcome address.</p>
+            </article>
+
+            <article>
+                <h3>Gifts & Honoring Ceremony</h3>
+                <p>Elders will be recognized and honored through a ceremony that includes the distribution of thoughtful gifts made possible through the community and donations. This moment centers on gratitude and acknowledges the leadership and wisdom of our elders.</p>
+            </article>
+
+            <article>
+                <h3>Shared Meal</h3>
+                <p>A catered meal is shared with all attendees, offering time for conversation, connection, and community building. This meal is provided through the generosity of donors and supporters.</p>
+            </article>
+
+            <article>
+                <h3>Closing Prayer & Acknowledgments</h3>
+                <p>The event concludes with a closing prayer and acknowledgments for elders, volunteers, donors, and community partners. This final moment brings the event full circle with gratitude and reflection. </p>
+            </article>
+
+            <article>
+                <h3>Community Time</h3>
+                <p>Attendees are invited to stay and engage in informal community time, fostering connections and conversations among participants.</p>
+            </article>
+
+            <!-- Optional supporting image -->
+            <img src="Photos/volutneers.jpg" alt="ICCT volunteers wearing matching shirts while assisting at a community event.">
+    
+        </section>
+
+        <section id="support-cta" class="fade-in">
+            <!-- donation reminder -->
+            <h2>Support the Event</h2>
+            <p>Your support helps ICCT provide meal, gifts, and community programming for Native American elders across the DFW area. Every contribution makes a meaningful difference. Our goal is to raise the full $8,000 it costs to provide this event!</p>
+            <a href="https://intertribaltexas.org/donate-to-icct/" target="_blank" rel="noopener noreferrer">Donate to Support Our Elders</a>
+        </section>
+    </main>
+    <footer>
+        <p>This site is for a semester project in IMED 1341, by Azsure Dorton (Blackfeet), created April 2026.</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+        <p>This site is for educational purposes only.</p>
+    </footer>
+</body>
+</html>
