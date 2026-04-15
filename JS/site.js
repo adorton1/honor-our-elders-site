@@ -1,3 +1,4 @@
+// super simple javascript for share button and modal functionality
 const shareButton = document.getElementById("share-story-button");
 const shareStatus = document.getElementById("share-story-status");
 

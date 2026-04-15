@@ -1,4 +1,4 @@
-/* ---------- Global Layout ---------- */
+/*  Global Layout  */
 section {
   padding: var(--space-5) 0;
 }
@@ -12,8 +12,7 @@ main > section {
   width: 100%;
 }
 
-header,
-footer {
+header {
   padding: var(--space-3) 0;
   background-color: white;
   box-shadow: var(--shadow-sm);
@@ -55,7 +54,7 @@ nav a:hover {
   color: var(--color-secondary);
 }
 
-/* ---------- Hero ---------- */
+/*  Hero  */
 #hero {
   position: relative;
   overflow: hidden;
@@ -125,7 +124,7 @@ nav a:hover {
   text-align: center;
 }
 
-/* ---------- Cards ---------- */
+/*  Cards  */
 .card-container {
   display: grid;
   gap: var(--space-4);
@@ -161,7 +160,7 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-/* ---------- Buttons + Interactive ---------- */
+/*  Buttons and Interactive */
 button,
 .button,
 .hero-ctas a {
@@ -257,7 +256,7 @@ details p {
   background-color: rgba(139, 58, 58, 0.12);
 }
 
-/* ---------- Quick Links + CTA ---------- */
+/*  Quick Links and CTA */
 #quick-links {
   margin-top: var(--space-6);
   text-align: center;
@@ -325,7 +324,7 @@ details p {
   margin-top: var(--space-3);
 }
 
-/* ---------- Utility ---------- */
+/*  Utility  */
 .hidden {
   display: none !important;
 }
@@ -347,7 +346,7 @@ details p {
   }
 }
 
-/* ---------- Home Page ---------- */
+/*  Home Page  */
 #event-overview,
 #fundraising-highlight,
 #event-highlights,
@@ -392,7 +391,7 @@ details p {
   min-height: 2.6em;
 }
 
-/* ---------- Event Page ---------- */
+/*  Event Page  */
 #event-story {
   text-align: center;
   margin-top: var(--space-5);
@@ -439,7 +438,7 @@ details p {
   max-width: 420px;
 }
 
-/* ---------- About Page ---------- */
+/*  About Page  */
 #mission {
   text-align: center;
   margin-top: var(--space-5);
@@ -532,7 +531,7 @@ details p {
   text-decoration: underline;
 }
 
-/* ---------- Privacy Page ---------- */
+/*  Privacy Page  */
 #privacy-policy,
 #image-credits {
   max-width: 760px;
@@ -562,7 +561,7 @@ details p {
   font-size: var(--text-xl);
 }
 
-/* ---------- Responsive ---------- */
+/*  Responsive  */
 @media (min-width: 700px) {
   nav ul {
     flex-direction: row;
@@ -681,7 +680,27 @@ details p {
     width: 100%;
   }
 
+  #event-details article {
+    min-width: 0;
+    padding: var(--space-3);
+  }
+
+  #event-details p {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
   #leadership .card-container {
     grid-template-columns: 1fr;
   }
+}
+
+footer {
+  padding: var(--space-4) 0;
+  background-color: white;
+  box-shadow: var(--shadow-sm);
+}
+
+footer p {
+  padding: 0 var(--space-3);
 }

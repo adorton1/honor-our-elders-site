@@ -1,6 +1,6 @@
 
 
-/* ---------- CSS Reset (Modern + Minimal) ---------- */
+/* CSS Reset (Modern + Minimal) */
 *,
 *::before,
 *::after {
@@ -21,7 +21,7 @@ body {
   line-height: 1.6;
 }
 
-/* ---------- Design Tokens ---------- */
+/*  Design Tokens  */
 :root {
   /* Colors */
   --color-primary: #8B3A3A;
@@ -66,7 +66,7 @@ body {
   --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.12);
 }
 
-/* ---------- Typography Defaults ---------- */
+/* Typography Defaults  */
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
   color: var(--color-primary);
@@ -91,7 +91,7 @@ p {
   max-width: 70ch;
 }
 
-/* ---------- Links ---------- */
+/* Links  */
 a {
   color: var(--color-accent);
   text-decoration: none;
@@ -103,7 +103,7 @@ a:focus {
   text-decoration: underline;
 }
 
-/* ---------- Images ---------- */
+/*  Images  */
 img {
   max-width: 100%;
   height: auto;
@@ -111,7 +111,7 @@ img {
   border-radius: var(--radius-md);
 }
 
-/* ---------- Buttons (Base Style) ---------- */
+/* Buttons  */
 button,
 a.button {
   display: inline-block;
@@ -131,7 +131,7 @@ a.button:hover {
   background-color: var(--color-secondary);
 }
 
-/* ---------- Utility Classes ---------- */
+/* Utility Classes  */
 .container {
   width: min(90%, 1200px);
   margin: 0 auto;
