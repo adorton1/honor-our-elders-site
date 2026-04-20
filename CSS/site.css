@@ -373,10 +373,16 @@ details p {
 }
 
 #event-overview img,
-#fundraising-highlight img,
 #event-highlights img {
   margin-top: var(--space-3);
   margin-bottom: var(--space-3);
+ 
+}
+
+#fundraising-highlight img {
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-3);
+  max-width: 400px;
 }
 
 #event-overview img {
@@ -480,6 +486,7 @@ details p {
 
 #programs img {
   margin: var(--space-3) auto 0;
+  max-width: 400px;
 }
 
 #programs .community-events-image {
